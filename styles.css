@@ -1,0 +1,101 @@
+/* Kumbh Sans Font */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500;800&display=swap');
+
+/* Global Variables */
+:root{
+    --dark-cyan: hsl(185, 75%, 39%);
+    --dark-saturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+/* Universal Selector, body */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--dark-cyan);
+    background-image: url("Images/bg-pattern-top.svg"), url("Images/bg-pattern-bottom.svg");
+    background-position: right 50vw bottom 20vh, left 50vw top 50vh;
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+}
+
+/* main */
+main{
+    display: grid;
+    place-items: center;
+    margin-top: 25vh;
+}
+
+/* Profile card */
+.profile-card{
+    background-color: white;
+    border-radius: 15px;
+}
+
+/* Card Texture and Image of the Person */
+img{
+    display: block;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#victor-img{
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: -60px auto 15px auto;
+    z-index: 10;
+}
+
+/* Information of the Person  */
+h2{
+    margin-bottom: 12px;
+}
+h2::after{
+    content: "26";
+    padding: 8px;
+    font-weight: 500;
+}
+h2::after, #state{
+    color: var(--dark-grayish-blue);
+}
+h2, h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--dark-saturated-blue);
+}
+h3{
+    margin-bottom: 10px;
+
+}
+span{
+    color: var(--dark-gray)
+}
+
+/* Stat-Container */
+.stat-container{
+    display: flex;
+    padding: 10px;
+    margin-top: 30px;
+    justify-content: center;
+    align-content: space-between;
+    border-top: 1px solid var(--dark-gray);
+}
+.stat-item{
+   padding: 20px;
+}
+
+/* Attribution */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding: 80px;
+    color: wheat;
+}
+.attribution a { 
+    color: hsl(81, 84%, 19%); 
+}
+
