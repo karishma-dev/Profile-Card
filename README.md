@@ -25,8 +25,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [https://github.com/Krrish105/Profile-Card](https://github.com/Krrish105/Profile-Card)
-- Live Site URL: [https://krrish105.github.io/Profile-Card/](https://krrish105.github.io/Profile-Card/)
+- Solution URL: [https://github.com/karishma-dev/Profile-Card](https://github.com/karishma-dev/Profile-Card)
+- Live Site URL: [https://karishma-dev.github.io/Profile-Card/](https://karishma-dev.github.io/Profile-Card/)
 
 ## My process
 
@@ -43,7 +43,7 @@ I learned how to use Global variables in css and how to use both images and colo
 
 ## Author
 
-- Frontend Mentor - [Krrish105](https://www.frontendmentor.io/profile/Krrish105)
+- Frontend Mentor - [karishma-dev](https://www.frontendmentor.io/profile/karishma-dev)
 - Twitter - [_karishma10](https://twitter.com/_karishma10)
-- Codepen - [Krrish105](https://codepen.io/krrish105)
+- Codepen - [karishma-dev](https://codepen.io/karishma-dev)
 
